@@ -1,0 +1,181 @@
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #132A13;
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+    background-color: #4F772D;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar a:hover {
+    background-color: darkgreen;
+  }
+
+footer {
+    color: #ffffff;
+    background-color: #31572C;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center; 
+    font-weight:bold;
+    line-height:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.package{
+margin: auto;
+padding: 10px;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+}
+
+article{
+display: flex;
+display: block;
+justify-content: center;
+flex-direction: column;
+}
+
+
+main {
+  background-image: url(amfotboll.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: greenyellow;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+.card{
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255, 255, 255, 0.9);
+display: inline-block;
+}
+
+.card2{
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255, 255, 255, 0.9);
+display: inline-block;
+}
+
+.card3{
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(255, 255, 255, 0.9);
+display: inline-block;
+}
+
+section{
+
+margin-right: auto;
+margin-left: auto;
+}
+
+.container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+
+.buy{
+margin: 20px;
+display: flex;
+padding: 15px 32px;
+background-color: black;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+justify-content: center;
+align-items: center;
+position: static;
+cursor: pointer;
+}
+
+.buy:hover{
+background-color: green;
+}
+
+.price{
+font-weight: bold;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url(BebasNeue-Regular.ttf);
+}
+
+.checked{
+  color: orange;
+}
+
+@media screen and (max-width: 789px){
+.container{
+width: 100%;
+display: block;
+  }
+}
+
+
+@media screen and (max-width:789px) {
+  body{
+  width: 100%;
+  }
+  
+  .card1, .card2, .card3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  }
+}
+
+
+
+
+
+
+
+  
+
+

@@ -1,0 +1,186 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  background-image: url(amfotboll.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: greenyellow;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+header {
+  background-color: #132A13;
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  background-color: #4F772D;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar a:hover {
+  background-color: darkgreen;
+}
+
+footer {
+    color: white;
+    background-color: #31572C;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center; 
+    font-weight:bold;
+    line-height:20px;
+}
+
+article{
+  width:100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+section{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 800px;
+  margin-bottom: 200px;
+  margin-top: 2rem;
+  max-height: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+
+.container{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 20px;
+  max-width: max-content;
+  max-height: 150px;
+}
+
+.rating{
+  display: flex;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  max-width: 200px;
+  max-height: 250px;
+  border: solid yellow;
+  }
+ 
+
+.knapp1{
+  margin: 20px;
+  display: flex;
+  padding: 15px 32px;
+  background-color: rgb(1, 117, 1);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  cursor: pointer;
+  }
+
+  .knapp2{
+    margin: 20px;
+    display: flex;
+    padding: 15px 32px;
+    background-color: rgb(1, 117, 1);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    cursor: pointer;
+    }
+
+p{
+  margin: auto;
+}
+
+.knapp1:hover{
+    background-color: green;
+}
+
+.checked{
+color: orange;
+}
+  
+@font-face {
+  font-family: "MyFont";
+  src: url(BebasNeue-Regular.ttf);
+}
+
+
+@media screen and (max-width:600px){
+  body{
+  width: 100%;
+  }
+}
+
